@@ -1,0 +1,46 @@
+SÜDAFRIKA 2027 – VERSION 13.1 (KORRIGIERTE VERSION 13)
+Prüfdatum: 17. Oktober 2026
+
+UMFANG
+1. Tagesassistent: bestehende Buchungen, Tagesaktivitäten und Freitext-Tagesnotizen,
+   Datumsnavigation, Ortswechselhinweise und unverbindliche Zeitpuffer-Empfehlungen.
+2. Buchungszentrale: Statusübersicht, Buchungsliste, neue Buchungen sowie
+   nachträgliche Bearbeitung bestehender Buchungen ohne Duplikate.
+5. Golfplaner: ortsbezogene Plätze, vorhandene Links und Buchungsvorbelegung.
+6. Offline-Reisemappe: feste Route, vorhandene Buchungen und Unterkunftsnotizen.
+7. Restaurantplaner: ortsbezogene Restaurants, Links und Buchungsvorbelegung.
+9. Premium-Layout: mobile Karten und Schnellzugriffe, responsive Darstellung.
+
+NICHT ERWEITERT: Wetteralternativen, zusätzliche Kostenanalyse, Reisetagebuch,
+automatische Gerätesynchronisation (Punkte 3, 4, 8, 10).
+Vorhandene Kostenfunktion und Datenspeicherschlüssel sa2027-premium-v2 beibehalten.
+
+DURCHGEFÜHRTE TESTS
+- ZIP-Inhalt der ursprünglichen V13 extrahiert und geprüft.
+- JavaScript mit Node.js Syntaxprüfung: bestanden.
+- Chromium/Playwright: HTML mittels set_content geladen; lokale HTTP-/Datei-URLs
+  sind durch Administratorrichtlinie gesperrt.
+- 375x812, 390x844, 428x926, 768x1024, 1280x800:
+  Startseite und 6 Funktionsbereiche auf Rendering, horizontales Überlaufen
+  und JavaScript-Laufzeitfehler geprüft.
+- Bestehende Tagesnotiz und Buchung im Tagesassistenten sichtbar.
+- Buchung bearbeiten: alte ID erhalten, kein Duplikat.
+- Golf-Buchung: Formular-Vorbelegung und Speichern geprüft.
+- Kosten: Fokus auf Ausgabezweck, Enter auf Betrag, EUR-Speicherung geprüft.
+- Insgesamt 82/82 automatisierte Einzelprüfungen erfolgreich.
+- ZIP-Integrität separat geprüft.
+
+GRENZEN DIESER PRÜFUNG
+- Browser konnte nur mit set_content testen; echtes GitHub-Pages-Hosting,
+  Service-Worker-Installation und vollständiges Offline-Verhalten nicht E2E geprüft.
+- Keine Tests auf physischem iPhone / iOS Safari.
+- Externe Ortsfotos nicht vollständig lokal verfügbar; Bildlizenzen und
+  Objektgenauigkeit nicht abschließend einzeln verifiziert.
+- Externe Links, Greenfees, Reservierungsverfügbarkeit und Fahrzeiten nicht
+  aktuell neu geprüft.
+- Keine automatische Datensynchronisation zwischen Windows und iPhone.
+
+INSTALLATION
+Vorher in der bestehenden App unter Meine Daten eine JSON-Sicherung exportieren.
+ZIP entpacken und enthaltene Dateien samt assets-Ordner in den GitHub-Repo-Stamm
+hochladen (nicht die ZIP-Datei selbst). Die iPhone-PWA nicht löschen.

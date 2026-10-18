@@ -1,0 +1,24 @@
+SÜDAFRIKA 2027 – QUALITÄTSPRÜFUNG VERSION 11.3
+Stand: 16. Oktober 2026
+
+BEHOBEN / VERBESSERT
+- Importvalidierung um Prüfung zentraler Datenstrukturen erweitert.
+- Vor jedem erfolgreichen Import wird eine lokale Rückfallkopie angelegt.
+- Datentransfer PC/iPhone ausdrücklich als manueller JSON-Export/-Import erklärt.
+- Bei fehlendem Originalbild wird ein lokales, als Illustration gekennzeichnetes Ersatzmotiv verwendet.
+- Hintergrundbilder erhalten lokalen Fallback.
+- Service-Worker-Cache auf Version 11.3 aktualisiert; keine HTML-Antwort als Bildersatz.
+- Vorhandener localStorage-Schlüssel unverändert: sa2027-premium-v2.
+
+NICHT ERLEDIGT / NICHT ALS GEPRÜFT BEHAUPTEN
+- Die echten Wikimedia-Fotos sind weiterhin externe Bild-URLs und NICHT offline im ZIP.
+  Der direkte Download aus Wikimedia war in dieser Ausführungsumgebung nicht möglich.
+- Nicht alle Einzelbilder für Golfplätze, Restaurants und Sehenswürdigkeiten sind verifiziert.
+  Regionale Fotos sind als solche markiert.
+- Ein vollständiger interaktiver End-to-End-Test auf Windows/iPhone ist nicht bestanden.
+- Preise, Greenfees, Buchbarkeit und Fahrtzeiten sind nicht live verifiziert.
+- Keine automatische Cloud-Synchronisierung.
+
+ERGEBNIS
+Dies ist eine technisch verbesserte TESTVERSION, keine freigegebene endgültige
+Premium Edition. Vor Installation unbedingt Datenexport aus der bestehenden App.

@@ -1,12 +1,12 @@
 {
-  "name": "Südafrika 2027 – Reisebegleiter",
+  "name": "Südafrika 2027 Premium",
   "short_name": "SA 2027",
   "description": "Persönlicher Reisebegleiter für Südafrika 2027",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f2e9",
-  "theme_color": "#153f36",
+  "background_color": "#101b22",
+  "theme_color": "#101b22",
   "lang": "de",
   "icons": [
     {

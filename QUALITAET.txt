@@ -1,0 +1,24 @@
+SÜDAFRIKA 2027 – PREMIUM V11.2 – PRÜFPROTOKOLL
+15. Oktober 2026
+
+BESTANDEN:
+- ZIP-Integrität
+- JavaScript-Syntax (Node.js --check)
+- 12 regional zugeordnete Originalfoto-Dateinamen aus Wikimedia Commons
+- Bildquellen-Links und Lizenzseiten im Projekt
+- Lokaler Datenspeicherschlüssel unverändert
+- Service-Worker-Cache-Version aktualisiert
+- Reisedaten und Reiseorte aus der Vorversion übernommen
+
+NICHT ALS BESTANDEN AUSGEGEBEN:
+- Tatsächliches Laden sämtlicher externer Wikimedia-Fotos im Browser (Netzwerk hier nicht verfügbar)
+- Originalbilder von jedem einzelnen Golfplatz/Restaurant/Sehenswürdigkeit
+- Vollständiger Offline-Zugriff auf Originalbilder (sie werden online geladen)
+- Visuelle End-to-End-Prüfung im Browser/iPhone
+- Live-Preise, Reservierungen, aktuelle Fahrzeiten
+
+HINWEIS:
+Die Fotos sind echte, auf Wikimedia Commons aufgeführte Ortsaufnahmen, aber
+werden aus dem Internet geladen. Die ZIP enthält lokale Ersatz-Designmotive.
+Auf Golf- und Restaurantkarten werden Bilder der Region als solche markiert.
+Bildlizenzbedingungen auf den jeweils verlinkten Commons-Dateiseiten beachten.

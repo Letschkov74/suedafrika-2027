@@ -1,0 +1,28 @@
+SÜDAFRIKA 2027 – VERSION 12 / MOBILE PREMIUM
+16.10.2026
+
+UMGESETZT
+- Hochformat-orientiertes responsives Layout für iPhone 14 Plus (428 × 926 CSS-Pixel)
+- Gut lesbare 16px-Eingabefelder gegen automatischen Safari-Zoom
+- Untere mobile Navigation mit direktem Menüpunkt Kosten
+- Einspaltige Kosteneingabe: Ausgabezweck → Enter → Betrag
+- Responsive Summenkarten und Ausgabenliste; große Touchflächen
+- Safe-Area-Abstände, Desktop-Seitennavigation bleibt bestehen
+- Bestehender Datenspeicher-Schlüssel unverändert; Service Worker Version 12
+
+PRÜFUNG
+- JavaScript-Syntaxprüfung: bestanden
+- ZIP-Integrität: bestanden
+- Interaktiver Browser-Test: NICHT abgeschlossen. Chromium-Aufrufe auf
+  lokale und lokale HTTP-Adressen werden hier durch Administratorrichtlinie blockiert.
+  Daher ist ein Test auf einem echten iPhone weiterhin erforderlich.
+
+WEITERHIN OFFEN
+- Externe Originalfotos nicht vollständig offline verfügbar
+- Objektfotos für alle Golfplätze, Restaurants und Sehenswürdigkeiten nicht verifiziert
+- Preise/Greenfees und Fahrzeiten nicht live neu geprüft
+- PC-iPhone-Datenübertragung manuell per JSON; keine automatische Synchronisation
+
+INSTALLATION
+ZIP entpacken und alle Dateien samt Ordner assets/ in GitHub-Repository hochladen.
+Vorher Datensicherung exportieren. iPhone-App nicht löschen.
